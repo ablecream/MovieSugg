@@ -24,7 +24,7 @@ function showMovies(movies) {
     movieEl.classList.add("movie");
 
     movieEl.innerHTML =`
-      <img
+            <img
                 src="${imgPath + poster_path}"
                 alt="${title}"
             />
